@@ -12,7 +12,7 @@ export interface Message {
   timestamp: number;
 }
 
-// Added missing interface for image generation history to fix import error in Visualizer
+// Interface for images generated via GenAI
 export interface GeneratedImage {
   id: string;
   url: string;
